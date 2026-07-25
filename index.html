@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official support site for Drag Race Sim.">
+  <title>Drag Race Sim</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #05080c;
+      --panel: #0c131b;
+      --line: #243443;
+      --text: #f5f7fa;
+      --muted: #a2afbc;
+      --cyan: #19c9ff;
+      --amber: #ffb000;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(180deg, #08111a 0%, var(--bg) 55%);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { width: min(860px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0; }
+    .eyebrow {
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 8px 0 12px; font-size: clamp(42px, 9vw, 76px); line-height: .95; }
+    .lead { max-width: 670px; color: var(--muted); font-size: 20px; }
+    .rule { height: 3px; margin: 38px 0; background: linear-gradient(90deg, var(--amber), var(--cyan), transparent); }
+    .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+    a {
+      display: block;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--text);
+      font-weight: 750;
+      text-decoration: none;
+    }
+    a:hover { border-color: var(--cyan); }
+    a span { display: block; margin-top: 3px; color: var(--muted); font-size: 14px; font-weight: 500; }
+    footer { margin-top: 44px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Official Support</div>
+    <h1>Drag Race Sim</h1>
+    <p class="lead">Build your garage, read the track, cut a light, and run the number through complete bracket-racing seasons.</p>
+    <div class="rule"></div>
+    <div class="links">
+      <a href="support.html">Support<span>Help, troubleshooting, and contact information</span></a>
+      <a href="privacy.html">Privacy Policy<span>How game data, iCloud, and Game Center are handled</span></a>
+    </div>
+    <footer>&copy; 2026 Nerdquad. All rights reserved.</footer>
+  </main>
+</body>
+</html>
